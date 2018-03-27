@@ -7,4 +7,3 @@
 * [Markdown常用语法](/js/markdown.md)
 * [终端及git常用命令整理](/tools/TerminalAndGit.md)
 
-# hahah
