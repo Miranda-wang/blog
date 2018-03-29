@@ -24,6 +24,9 @@
 * git commit -a  提交到本地仓库
 * git log 查看日志
 * git push 推送到git远程仓库
+* git config --list 查看git的配置文件,包括用户名,用户的邮箱
+* git config user.name "whl" 修改配置文件中的用户名,同理可以修改配置文件中的其他项
+* git merge 合并分支
 
 ***
 # vi编辑器常用命令
