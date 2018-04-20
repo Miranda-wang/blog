@@ -7,7 +7,7 @@
 ># 全局安装vue-cli
 npm install -g vue-cli
 ># 创建一个基于webpack模板的项目
-npm init webpack my-demo
+vue init webpack my-demo
 ># 打开my-demo目录,安装开发依赖
 cd my-demo
 npm install
