@@ -30,7 +30,11 @@
 * git push 推送到git远程仓库
 * git config --list 查看git的配置文件,包括用户名,用户的邮箱
 * git config user.name "whl" 修改配置文件中的用户名,同理可以修改配置文件中的其他项
-* git merge 合并分支
+* git checkout 分支名字 切换分支
+* git checkout -b 分支名字 新建分支,并切换到新建的分支上
+* git branch 查看分支名称
+* git merge  分支名字  合并分支 首先切换到master分支上,再使用此命令
+
 
 ***
 # 删除本地仓库
