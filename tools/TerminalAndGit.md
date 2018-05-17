@@ -1,3 +1,4 @@
+
 # Terminal常用命令
 
 ## 目录操作
@@ -33,8 +34,13 @@
 * git checkout 分支名字 切换分支
 * git checkout -b 分支名字 新建分支,并切换到新建的分支上
 * git branch 查看分支名称
+* git branch -a 可以罗列出本地分支以及远程分支,查看是否一致
 * git merge  分支名字  合并分支 首先切换到master分支上,再使用此命令
 * git reset --hard HEAD^ 版本回退到最上面的一个版本,如果是第二个HEAD^^,如果是35个 HEAD~35
+* git rm --cached -r 目录 删除已经被跟踪的文件,或者上传到git仓库的node文件库(备注:如果是初始化git仓库,可以添加一个.gitignore文件,在里面把不							 需要的文件名配置一下,直接写目录名即可)
+* git diff 文件对比,仓库对比,查看差异
+
+
 
 ***
 # 删除本地仓库
